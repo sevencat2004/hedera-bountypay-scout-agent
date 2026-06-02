@@ -1,0 +1,28 @@
+{
+  "name": "hedera-bountypay-scout-agent",
+  "version": "0.1.0",
+  "description": "A Hedera Agent Kit + MCP/x402 bounty intelligence agent that gates deep GitHub bounty analysis behind pay-triggered execution.",
+  "type": "module",
+  "private": false,
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "mcp": "tsx src/mcp-server.ts",
+    "serve": "tsx src/x402-server.ts",
+    "demo": "tsx src/index.ts analyze https://github.com/gyroflow/gyroflow/issues/742",
+    "test": "tsx src/self-test.ts"
+  },
+  "dependencies": {
+    "@hashgraph/sdk": "^2.69.0",
+    "hedera-agent-kit": "^3.8.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.29",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
