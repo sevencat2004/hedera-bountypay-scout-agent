@@ -25,11 +25,7 @@ https://github.com/sevencat2004/hedera-bountypay-scout-agent#run-x402-style-http
 
 ## Hedera Tool Feedback Link
 
-TBD. Feedback draft is available via:
-
-```bash
-npm run dev -- feedback
-```
+https://github.com/hashgraph/hedera-agent-kit-js/issues/892
 
 ## Wallet Address
 

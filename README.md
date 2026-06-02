@@ -152,7 +152,13 @@ The current submission keeps live fund movement disabled by design. This is a sa
 
 ## Feedback Draft
 
-Generate the feedback text required for the bounty submission:
+Feedback submitted to the official Hedera Agent Kit repository:
+
+```text
+https://github.com/hashgraph/hedera-agent-kit-js/issues/892
+```
+
+Generate the local feedback text:
 
 ```bash
 npm run dev -- feedback
