@@ -14,8 +14,9 @@
     "test": "tsx src/self-test.ts"
   },
   "dependencies": {
+    "@hashgraph/hedera-agent-kit": "^4.0.0",
     "@hashgraph/sdk": "^2.69.0",
-    "hedera-agent-kit": "^3.8.2"
+    "@hashgraphonline/standards-agent-kit": "^0.2.166"
   },
   "devDependencies": {
     "@types/node": "^22.15.29",
