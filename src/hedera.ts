@@ -21,14 +21,14 @@ export async function getHederaRuntimeStatus(): Promise<HederaRuntimeStatus> {
 
   try {
     const hederaAgentKitPackage = "@hashgraph/hedera-agent-kit";
-    const standardsAgentKitPackage = "@hashgraphonline/standards-agent-kit";
+    const mcpToolkitPackage = "@hashgraph/hedera-agent-kit-mcp";
     await import(hederaAgentKitPackage);
-    await import(standardsAgentKitPackage);
+    await import(mcpToolkitPackage);
     return {
       enabled: true,
       network,
       accountId,
-      note: "Hedera Agent Kit v4 and the standards MCP toolkit package are available and credentials are present. This demo only reads configuration; it does not spend funds automatically.",
+      note: "Hedera Agent Kit v4 and the official MCP toolkit package are available and credentials are present. This demo only reads configuration; it does not spend funds automatically.",
     };
   } catch (error) {
     return {

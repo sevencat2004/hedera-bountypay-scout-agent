@@ -17,11 +17,11 @@ For local demo safety, `X-PAYMENT: demo-paid` triggers analysis without moving f
 
 ## Repository URL
 
-TBD after GitHub repository creation.
+https://github.com/sevencat2004/hedera-bountypay-scout-agent
 
 ## Demo URL
 
-TBD after GitHub repository creation. The README contains the full demo flow and commands.
+https://github.com/sevencat2004/hedera-bountypay-scout-agent#run-x402-style-http-demo
 
 ## Hedera Tool Feedback Link
 

@@ -15,8 +15,8 @@
   },
   "dependencies": {
     "@hashgraph/hedera-agent-kit": "^4.0.0",
-    "@hashgraph/sdk": "^2.69.0",
-    "@hashgraphonline/standards-agent-kit": "^0.2.166"
+    "@hashgraph/hedera-agent-kit-mcp": "^1.0.0",
+    "@hashgraph/sdk": "^2.69.0"
   },
   "devDependencies": {
     "@types/node": "^22.15.29",

@@ -134,7 +134,7 @@ For local demo analysis, call `analyze_bounty_issue` with:
 
 ## Hedera Agent Kit
 
-The project imports the current Hedera Agent Kit package, `@hashgraph/hedera-agent-kit`, plus the standards MCP toolkit package, `@hashgraphonline/standards-agent-kit`, and reports runtime status through:
+The project imports the current Hedera Agent Kit package, `@hashgraph/hedera-agent-kit`, plus the official MCP toolkit package, `@hashgraph/hedera-agent-kit-mcp`, and reports runtime status through:
 
 ```bash
 npm run dev -- status
